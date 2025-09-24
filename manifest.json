@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "RGB Ranger - AI Colorblind Ally",
+  "version": "1.0.0",
+  "description": "On-device AI-powered assistant for colorblind users, adjusting web content colors in real-time.",
+  "permissions": ["activeTab", "scripting", "storage"],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "128": "icons/logo.svg"
+  }
+}
