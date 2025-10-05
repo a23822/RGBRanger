@@ -1,2 +1,19 @@
-<button id="RGBRANGER-BUTTON-START">Start</button>
-<script src="popup.js" defer></script>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>RGB Ranger</title>
+    <style>
+        body { font-family: sans-serif; width: 200px; padding: 10px; }
+        select, button { width: 100%; padding: 8px; margin-top: 10px; }
+    </style>
+</head>
+<body>
+    <h3>Select Color Vision Deficiency</h3>
+    <select id="colorblind-type-select">
+        <option value="deuteranopia">적록 색맹 (Deuteranopia)</option>
+        <option value="protanopia">적색맹 (Protanopia)</option>
+        </select>
+    <button id="RGBRANGER-BUTTON-START">Analyze and Apply Filter</button>
+    <script src="popup.js" defer></script>
+</body>
+</html>
